@@ -2,6 +2,7 @@
 # para que se cumpla la condición.
 print 'Ingresa tu contraseña: '
 password = gets.chomp
+
 if password == 'secreto'
   puts 'Acceso PERMITIDO! :)'
 else
