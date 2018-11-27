@@ -1,4 +1,4 @@
-# Modifica el código para que al mostrar b el resultado sea:
+# Modifica el codigo para que al mostrar b el resultado sea:
 
 # <ul>
 # <li> hola </li>
@@ -12,7 +12,8 @@ a = 5
 b = ''
 
 a.times do
-  b = "<li> hola </li>\n"
-end
+  b="<li> hola </li>\n"
 
+end
 puts b
+puts "<ul>#{b}</ul>"

@@ -1,5 +1,5 @@
-# El siguiente programa debería mostrar un menú
-# e imprimirlo reiteradamente hasta que el usuario ingrese la opción número 4.
+# El siguiente programa deberia mostrar un menu
+# e imprimirlo reiteradamente hasta que el usuario ingrese la opcion numero 4.
 
 ready = 0
 while(ready == 0){

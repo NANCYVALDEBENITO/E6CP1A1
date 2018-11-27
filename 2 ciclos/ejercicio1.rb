@@ -1,5 +1,6 @@
-# En el siguiente código reemplaza la instrucción 'for' por 'times'
+# En el siguiente codigo reemplaza la instruccion 'for' por 'times'
+i = 0
 
-for i in 1..10 do
-  puts i
+10.times do
+  puts i += 1
 end
