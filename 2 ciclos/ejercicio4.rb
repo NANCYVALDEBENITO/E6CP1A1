@@ -12,8 +12,10 @@ a = 5
 b = ''
 
 a.times do
-  b="<li> hola </li>\n"
-
+  b = "<li> hola </li>\n"
+  b = b*a
 end
+
+puts '<ul>'
 puts b
-puts "<ul>#{b}</ul>"
+puts '</ul>'
