@@ -3,7 +3,14 @@
 
 a = ''
 10.times do |i|
-	
+  i += 1
+  if (i % 2).zero?
+  	a = a + "#{i}par " 
+  	
+  else
+  	a = a + "#{i}impar "
+     
+  end
 end
 
 puts a
