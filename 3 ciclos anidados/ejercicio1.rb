@@ -12,19 +12,3 @@ for i in 1..4
 	end
 	puts a
 end
-
-# for i in 1..4
-# 	print "#{i}  "
-# end
-# puts a
-# for i in 2..8
-# 	print "#{i}  " if (i % 2 == 0)
-# end
-# puts a
-# for i in 3..12
-# 	print "#{i}  " if (i % 3 == 0)
-# end
-# puts a
-# for i in 4..16
-# 	print "#{i}  " if (i % 4 == 0)
-# end

@@ -1,5 +1,5 @@
 =begin
-Generar el código para imprimir la siguiente tabla:
+Generar el codigo para imprimir la siguiente tabla:
 
  <table>
  <tbody>
@@ -24,3 +24,32 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+b = 4
+puts '<table>'
+puts '<tbody>'
+a,b,c = '','',''
+for i in 1..12
+  a = a + "    <td> #{i} </td>\n" if (i <= 4)
+  if i == 4
+    puts '  <tr>'
+    puts a
+    puts '  </tr>'
+  end
+
+  b = b + "    <td> #{i} </td>\n" if (i > 4 && i <=8)
+  if i == 8
+    puts '  <tr>'
+    puts b
+    puts '  </tr>'
+  end
+
+  c = c + "    <td> #{i} </td>\n" if (i > 8 && i <=12)
+  if i == 12
+    puts '  <tr>'
+    puts c
+    puts '  </tr>'
+  end
+
+end
+puts '</tbody>'
+puts '</table>'
